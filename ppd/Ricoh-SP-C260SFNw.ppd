@@ -1,0 +1,100 @@
+*PPD-Adobe: "4.3"
+*FormatVersion: "4.3"
+*FileVersion: "2.3"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*FileSystem: False
+*PCFileName: "ippeve.ppd"
+*Manufacturer: "RICOH"
+*ModelName: "SP C260SFNw"
+*Product: "(SP C260SFNw)"
+*NickName: "SP C260SFNw - IPP Everywhere"
+*ShortNickName: "SP C260SFNw - IPP Everywhere"
+*ColorDevice: True
+*cupsVersion: 2.3
+*cupsSNMPSupplies: False
+*cupsLanguages: "en_US"
+*APSupplies: "http://C260SFNw-0E775F.local:80/index.html"
+*cupsFilter2: "image/jpeg image/jpeg 0 -"
+*cupsManualCopies: true
+*cupsFilter2: "image/urf image/urf 100 -"
+*OpenUI *PageSize: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: A4
+*PageSize A4: "<</PageSize[595.275590551181 841.889763779528]>>setpagedevice"
+*PageSize A5: "<</PageSize[419.527559055118 595.275590551181]>>setpagedevice"
+*PageSize A6: "<</PageSize[297.637795275591 419.527559055118]>>setpagedevice"
+*PageSize Legal: "<</PageSize[612 1008]>>setpagedevice"
+*PageSize Letter: "<</PageSize[612 792]>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: A4
+*PageRegion A4: "<</PageSize[595.275590551181 841.889763779528]>>setpagedevice"
+*PageRegion A5: "<</PageSize[419.527559055118 595.275590551181]>>setpagedevice"
+*PageRegion A6: "<</PageSize[297.637795275591 419.527559055118]>>setpagedevice"
+*PageRegion Legal: "<</PageSize[612 1008]>>setpagedevice"
+*PageRegion Letter: "<</PageSize[612 792]>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: A4
+*DefaultPaperDimension: A4
+*ImageableArea A4: "12.018897637795 12.018897637795 583.256692913386 829.870866141732"
+*PaperDimension A4: "595.275590551181 841.889763779528"
+*ImageableArea A5: "12.018897637795 12.018897637795 407.508661417323 583.256692913386"
+*PaperDimension A5: "419.527559055118 595.275590551181"
+*ImageableArea A6: "12.018897637795 12.018897637795 285.618897637795 407.508661417323"
+*PaperDimension A6: "297.637795275591 419.527559055118"
+*ImageableArea Legal: "12.018897637795 12.018897637795 599.981102362205 995.981102362205"
+*PaperDimension Legal: "612 1008"
+*ImageableArea Letter: "12.018897637795 12.018897637795 599.981102362205 779.981102362205"
+*PaperDimension Letter: "612 792"
+*HWMargins: "12.018897637795 12.018897637795 12.018897637795 12.018897637795"
+*ParamCustomPageSize Width: 1 points 255.11811023622 612.283464566929
+*ParamCustomPageSize Height: 2 points 419.527559055118 1009.133858267717
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 3
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*OpenUI *InputSlot: PickOne
+*OrderDependency: 10 AnySetup *InputSlot
+*DefaultInputSlot: Auto
+*InputSlot Auto: "<</MediaPosition 0>>setpagedevice"
+*en_US.InputSlot Auto/Automatic: ""
+*InputSlot Tray1: "<</MediaPosition 20>>setpagedevice"
+*en_US.InputSlot Tray1/Tray 1: ""
+*InputSlot ByPassTray: "<</MediaPosition 19>>setpagedevice"
+*en_US.InputSlot ByPassTray/By-pass Tray: ""
+*CloseUI: *InputSlot
+*OpenUI *ColorModel: PickOne
+*OrderDependency: 10 AnySetup *ColorModel
+*en_US.Translation ColorModel/Color Mode: ""
+*ColorModel Gray: "<</cupsColorSpace 18/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*en_US.ColorModel Gray/Grayscale: ""
+*ColorModel RGB: "<</cupsColorSpace 19/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*en_US.ColorModel RGB/Color: ""
+*DefaultColorModel: RGB
+*CloseUI: *ColorModel
+*OpenUI *Duplex: PickOne
+*OrderDependency: 10 AnySetup *Duplex
+*en_US.Translation Duplex/2-Sided Printing: ""
+*DefaultDuplex: None
+*Duplex None: "<</Duplex false>>setpagedevice"
+*en_US.Duplex None/Off (1-Sided): ""
+*Duplex DuplexNoTumble: "<</Duplex true/Tumble false>>setpagedevice"
+*en_US.Duplex DuplexNoTumble/Long-Edge (Portrait): ""
+*Duplex DuplexTumble: "<</Duplex true/Tumble true>>setpagedevice"
+*en_US.Duplex DuplexTumble/Short-Edge (Landscape): ""
+*CloseUI: *Duplex
+*cupsBackSide: Rotated
+*DefaultResolution: 600dpi
+*OpenUI *cupsPrintQuality: PickOne
+*OrderDependency: 10 AnySetup *cupsPrintQuality
+*en_US.Translation cupsPrintQuality/Print Quality: ""
+*DefaultcupsPrintQuality: Normal
+*cupsPrintQuality Draft: "<</HWResolution[600 300]>>setpagedevice"
+*en_US.cupsPrintQuality Draft/Draft: ""
+*cupsPrintQuality Normal: "<</HWResolution[600 600]>>setpagedevice"
+*en_US.cupsPrintQuality Normal/Normal: ""
+*CloseUI: *cupsPrintQuality
