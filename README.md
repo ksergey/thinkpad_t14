@@ -87,3 +87,8 @@ Done!
 
 I don't know who overrides `$LANG` variable before execute `/etc/profile.d/locale.sh`, but trick above fix that.
 
+## Troubleshooting
+
+> USB-A ports on both sides stopped working
+
+Shutting down laptop and battery reset via small pinhole did the trick - USB A ports are now operational ([source](https://www.reddit.com/r/thinkpad/comments/mfvo39/t14_gen_1_amd_usba_ports_on_both_sides_just/))
